@@ -1,0 +1,10 @@
+Experiment,Main_Result,Key_Quantitative_Result
+1D Benchmark,LBM closely matched analytical 1D solution,R² = 0.99960–0.99992
+1D Diffusion,Higher D increased plume width and reduced peak,"R² = 0.99952–0.99999 at 20,000 s"
+1D Velocity,Higher velocity translated plume downstream,Centroid = 110–310 m; σ ≈ 20 m
+1D Low-Diffusion Stability,Low D caused non-physical negative concentrations,D < 0.006 produced numerical undershoot
+2D Benchmark,LBM closely matched analytical 2D solution,R² = 0.999978–0.999998
+2D Diffusion,Higher D increased 2D spreading and reduced peak,R² = 0.99522–0.99999
+2D Velocity,Higher velocity moved plume without changing width,Centroid error = 0.0014–0.0042 m
+2D Channel Width,Narrow channels restricted lateral plume spreading,σy/σunbounded = 0.4785–0.99996
+2D Multiple Sources,LBM reproduced interaction of three pollutant sources,R² = 0.999979–0.999995; total mass = 3
